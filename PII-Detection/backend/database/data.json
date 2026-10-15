@@ -1,0 +1,225 @@
+{
+  "scans": [
+    {
+      "id": "76b9d076-2058-4b1f-bf6f-469b55c4da6a",
+      "userId": "demo-analyst-001",
+      "fileName": "sample-hr-onboarding.txt",
+      "timestamp": "2026-09-28T04:52:42.871Z",
+      "detectionCount": 5,
+      "riskLevel": "HIGH",
+      "riskScore": 100,
+      "summary": "Critical Risk: High probability of government-issued identity documents detected. Direct exposure hazard.",
+      "remediationAdvice": [
+        "Apply immediate irreversible masking or tokenization before sharing or storing this document.",
+        "Restrict file permissions to authorized personnel with strict Role-Based Access Control (RBAC).",
+        "Store encrypted at rest using AES-256 with key management isolated from data storage.",
+        "Audit data flow for compliance under the Digital Personal Data Protection (DPDP) Act / ISO 27701."
+      ],
+      "categoriesDetected": [
+        "Passport-like",
+        "Driving Licence-like",
+        "Voter ID-like",
+        "Email Address",
+        "Phone Number"
+      ],
+      "detections": [
+        {
+          "id": "det-1",
+          "category": "Passport-like",
+          "label": "Potential Passport Identifier",
+          "maskedValue": "KXXXXX14",
+          "confidence": 0.98,
+          "source": "pattern_and_context",
+          "riskLevel": "HIGH",
+          "location": {
+            "startIndex": 291,
+            "endIndex": 299,
+            "approximateLine": 9
+          },
+          "contextSnippet": " SUBMITTED:\n\n1. Republic of India Passport:\n   Passport No: KXXXXX14\n   Nationality: Indian\n   Place of Issue: Chennai Regional ",
+          "aiReasoning": null
+        },
+        {
+          "id": "det-2",
+          "category": "Driving Licence-like",
+          "label": "Potential Driving Licence",
+          "maskedValue": "TN-XXXX-8192",
+          "confidence": 0.98,
+          "source": "pattern_and_context",
+          "riskLevel": "HIGH",
+          "location": {
+            "startIndex": 488,
+            "endIndex": 505,
+            "approximateLine": 15
+          },
+          "contextSnippet": "1\n\n2. State Transport Department Driving Licence:\n   DL No: TN-XXXX-8192\n   Issuing RTO: Anna Nagar, Chennai\n   Licence to Drive: LM",
+          "aiReasoning": null
+        },
+        {
+          "id": "det-3",
+          "category": "Voter ID-like",
+          "label": "Potential Voter ID (EPIC)",
+          "maskedValue": "TNXXXX102",
+          "confidence": 0.96,
+          "source": "pattern_and_context",
+          "riskLevel": "HIGH",
+          "location": {
+            "startIndex": 640,
+            "endIndex": 650,
+            "approximateLine": 20
+          },
+          "contextSnippet": "ction Commission of India Voter ID (EPIC):\n   EPIC Card No: TNXXXX102\n   Constituency: Chennai South\n\n4. Ministry of Labour & Emp",
+          "aiReasoning": null
+        },
+        {
+          "id": "det-4",
+          "category": "Email Address",
+          "label": "Potential Email Address",
+          "maskedValue": "p***@cybersafe-example.in",
+          "confidence": 0.98,
+          "source": "pattern_and_context",
+          "riskLevel": "LOW",
+          "location": {
+            "startIndex": 879,
+            "endIndex": 910,
+            "approximateLine": 28
+          },
+          "contextSnippet": " Member ID: TBCHE0019283000\n\nCONTACT DIRECTORY:\nWork Email: p***@cybersafe-example.in\nPersonal Tel: +91 94441 23456\n\nDeclaration: All submitted v",
+          "aiReasoning": null
+        },
+        {
+          "id": "det-5",
+          "category": "Phone Number",
+          "label": "Potential Phone Number",
+          "maskedValue": "+91-XXXXX-456",
+          "confidence": 0.67,
+          "source": "pattern_and_context",
+          "riskLevel": "MEDIUM",
+          "location": {
+            "startIndex": 925,
+            "endIndex": 940,
+            "approximateLine": 29
+          },
+          "contextSnippet": ":\nWork Email: priya.iyer@cybersafe-example.in\nPersonal Tel: +91-XXXXX-456\n\nDeclaration: All submitted verification proofs are retaine",
+          "aiReasoning": null
+        }
+      ],
+      "redactedTextPreview": "INTERNAL HR COMPLIANCE DOSSIER - NEW JOINER VERIFICATION\nOrganization: CyberSafe Technologies Private Limited\nEmployee ID: CST-2026-8942\nCandidate Name: Priya Venkatesh Iyer (Synthetic Test Subject)\n\nGOVERNMENT IDENTITY CREDENTIALS SUBMITTED:\n\n1. Republic of India Passport:\n   Passport No: K8392014\n   Nationality: Indian\n   Place of Issue: Chennai Regional Passport Office\n   Date of Issue: 12/03/2021 | Valid Until: 11/03/2031\n\n2. State Transport Department Driving Licence:\n   DL No: TN02-2019-0048192\n   Issuing RTO: Anna Nagar, Chennai\n   Licence to Drive: LMV, MCWG\n\n3. Election Commission of India Voter ID (EPIC):\n   EPIC Card No: TNV3849102\n   Constituency: Chennai South\n\n4. Ministry of Labour & Employment Social Security:\n   EPFO Universal Account Number (UAN): 101294857291\n   Pension Payment Scheme (EPS) Member ID: TBCHE0019283000\n\nCONTACT DIRECTORY:\nWork Email: priya.iyer@cybersafe-example.in\nPersonal Tel: +91 94441 23456\n\nDeclaration: All submitted verification proofs are retained under company data protection guidelines.",
+      "meta": {
+        "inputLength": 1043,
+        "engineVersion": "2.1.0-gemini3.8",
+        "aiAssisted": false
+      }
+    },
+    {
+      "id": "83df9ed1-aa91-4e1a-b6a2-6622b6278084",
+      "userId": "demo-analyst-001",
+      "fileName": "Tax Assessment Sample",
+      "timestamp": "2026-09-28T04:52:42.848Z",
+      "detectionCount": 4,
+      "riskLevel": "HIGH",
+      "riskScore": 100,
+      "summary": "Critical Risk: High probability of government-issued identity documents detected. Direct exposure hazard.",
+      "remediationAdvice": [
+        "Apply immediate irreversible masking or tokenization before sharing or storing this document.",
+        "Restrict file permissions to authorized personnel with strict Role-Based Access Control (RBAC).",
+        "Store encrypted at rest using AES-256 with key management isolated from data storage.",
+        "Audit data flow for compliance under the Digital Personal Data Protection (DPDP) Act / ISO 27701."
+      ],
+      "categoriesDetected": [
+        "PAN-like",
+        "Aadhaar-like",
+        "Phone Number",
+        "Email Address"
+      ],
+      "detections": [
+        {
+          "id": "det-1",
+          "category": "PAN-like",
+          "label": "Potential PAN Identifier",
+          "maskedValue": "AXXXXXX4F",
+          "confidence": 0.98,
+          "source": "pattern_and_context",
+          "riskLevel": "HIGH",
+          "location": {
+            "startIndex": 55,
+            "endIndex": 65,
+            "approximateLine": 1
+          },
+          "contextSnippet": "CONFIDENTIAL TAX ASSESSMENT. Name: Rajesh Sharma, PAN: AXXXXXX4F, Aadhaar UID: 3675 9834 6012, Mobile: +91 9876543210, Email",
+          "aiReasoning": null
+        },
+        {
+          "id": "det-2",
+          "category": "Aadhaar-like",
+          "label": "Potential Aadhaar Identifier",
+          "maskedValue": "XXXX-XXXX-6012",
+          "confidence": 0.94,
+          "source": "pattern_and_context",
+          "riskLevel": "HIGH",
+          "location": {
+            "startIndex": 80,
+            "endIndex": 94,
+            "approximateLine": 1
+          },
+          "contextSnippet": "ESSMENT. Name: Rajesh Sharma, PAN: ABCPS1234F, Aadhaar UID: XXXX-XXXX-6012, Mobile: +91 9876543210, Email: rajesh@example.com",
+          "aiReasoning": null
+        },
+        {
+          "id": "det-3",
+          "category": "Phone Number",
+          "label": "Potential Phone Number",
+          "maskedValue": "+91-XXXXX-210",
+          "confidence": 0.67,
+          "source": "pattern_and_context",
+          "riskLevel": "MEDIUM",
+          "location": {
+            "startIndex": 104,
+            "endIndex": 118,
+            "approximateLine": 1
+          },
+          "contextSnippet": "arma, PAN: ABCPS1234F, Aadhaar UID: 3675 9834 6012, Mobile: +91-XXXXX-210, Email: rajesh@example.com",
+          "aiReasoning": null
+        },
+        {
+          "id": "det-4",
+          "category": "Email Address",
+          "label": "Potential Email Address",
+          "maskedValue": "r***@example.com",
+          "confidence": 0.98,
+          "source": "pattern_and_context",
+          "riskLevel": "LOW",
+          "location": {
+            "startIndex": 127,
+            "endIndex": 145,
+            "approximateLine": 1
+          },
+          "contextSnippet": "Aadhaar UID: 3675 9834 6012, Mobile: +91 9876543210, Email: r***@example.com",
+          "aiReasoning": null
+        }
+      ],
+      "redactedTextPreview": "CONFIDENTIAL TAX ASSESSMENT. Name: Rajesh Sharma, PAN: ABCPS1234F, Aadhaar UID: 3675 9834 6012, Mobile: +91 9876543210, Email: rajesh@example.com",
+      "meta": {
+        "inputLength": 145,
+        "engineVersion": "2.1.0-gemini3.8",
+        "aiAssisted": false
+      }
+    }
+  ],
+  "settings": {
+    "categories": {
+      "aadhaar": true,
+      "pan": true,
+      "passport": true,
+      "driving_license": true,
+      "voter_id": true,
+      "gov_id": true,
+      "phone": true,
+      "email": true
+    },
+    "confidenceThreshold": 0.55,
+    "autoDeleteFiles": true,
+    "useGemini": true,
+    "theme": "dark"
+  }
+}

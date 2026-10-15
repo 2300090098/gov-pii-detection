@@ -1,0 +1,16 @@
+CYBERSECURITY ARCHITECTURE & SYSTEM OVERVIEW
+Platform: SentinelGov PII Detection Service
+Version: 2.1.0
+
+System Architecture Principles:
+1. Multi-tier Detection: Combines deterministic pattern engines, local context heuristics, and deep language models.
+2. Zero-Storage Policy: Complete raw PII values are discarded immediately after in-memory classification.
+3. Strict Ephemeral File Processing: Uploaded files are streamed through memory or purged from disk immediately.
+4. Defense in Depth: Role-based access control, cryptographic field masking, and comprehensive audit trail generation.
+
+Performance Metrics:
+- Text scan latency: < 80ms
+- Multi-page document extraction: < 1.2s
+- Concurrency limit: 100 requests per minute per IP
+
+All telemetry data collected is anonymized in accordance with international privacy guidelines.

@@ -1,0 +1,18 @@
+{
+  "name": "gov-p-root",
+  "version": "1.0.0",
+  "description": "Root runner for Detection of Government-Issued PII Embedded in Documents and Data",
+  "scripts": {
+    "dev": "cd PII-Detection/frontend && npm.cmd run dev",
+    "dev:frontend": "cd PII-Detection/frontend && npm.cmd run dev",
+    "dev:backend": "cd PII-Detection/backend && node server.js",
+    "start": "cd PII-Detection/backend && node server.js",
+    "start:backend": "cd PII-Detection/backend && node server.js",
+    "start:frontend": "cd PII-Detection/frontend && npm.cmd run dev",
+    "build": "cd PII-Detection/frontend && npm.cmd run build",
+    "test:api": "cd PII-Detection/backend && node test_api.js"
+  },
+  "keywords": ["cybersecurity", "pii-detection", "gemini-api", "firebase"],
+  "author": "",
+  "license": "ISC"
+}

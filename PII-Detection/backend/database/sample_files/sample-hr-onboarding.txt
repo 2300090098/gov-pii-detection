@@ -1,0 +1,31 @@
+INTERNAL HR COMPLIANCE DOSSIER - NEW JOINER VERIFICATION
+Organization: CyberSafe Technologies Private Limited
+Employee ID: CST-2026-8942
+Candidate Name: Priya Venkatesh Iyer (Synthetic Test Subject)
+
+GOVERNMENT IDENTITY CREDENTIALS SUBMITTED:
+
+1. Republic of India Passport:
+   Passport No: K8392014
+   Nationality: Indian
+   Place of Issue: Chennai Regional Passport Office
+   Date of Issue: 12/03/2021 | Valid Until: 11/03/2031
+
+2. State Transport Department Driving Licence:
+   DL No: TN02-2019-0048192
+   Issuing RTO: Anna Nagar, Chennai
+   Licence to Drive: LMV, MCWG
+
+3. Election Commission of India Voter ID (EPIC):
+   EPIC Card No: TNV3849102
+   Constituency: Chennai South
+
+4. Ministry of Labour & Employment Social Security:
+   EPFO Universal Account Number (UAN): 101294857291
+   Pension Payment Scheme (EPS) Member ID: TBCHE0019283000
+
+CONTACT DIRECTORY:
+Work Email: priya.iyer@cybersafe-example.in
+Personal Tel: +91 94441 23456
+
+Declaration: All submitted verification proofs are retained under company data protection guidelines.

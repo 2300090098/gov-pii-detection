@@ -1,0 +1,22 @@
+NATIONAL HEALTH AUTHORITY - GOVERNMENT OF INDIA
+Ayushman Bharat Digital Mission (ABDM)
+Beneficiary Health Card Record (Synthetic Test Data)
+
+Beneficiary Name: Sunita Devi Patel
+Gender: Female | Age: 42
+Family ID: 8941029481
+
+AYUSHMAN BHARAT HEALTH ACCOUNT (ABHA):
+ABHA ID: 91-8492-1049-5820
+ABHA Address: sunita.patel@abdm
+
+PENSION & WELFARE IDENTIFIERS:
+Central Government Health Scheme (CGHS) Beneficiary ID: CGHS-4910294
+Pension Payment Order (PPO) Number: 491029481029
+
+REGISTERED HEALTHCARE FACILITY:
+Primary Health Centre: Sector 4 District Hospital, Ahmedabad
+Emergency Contact Number: +91 98250 12345
+Registered Notification Email: sunita.patel.health@internal-test.org
+
+Note: This electronic record is generated for authorized hospital administration only.

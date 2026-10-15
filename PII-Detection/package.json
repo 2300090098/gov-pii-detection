@@ -1,0 +1,17 @@
+{
+  "name": "pii-detection-monorepo",
+  "version": "1.0.0",
+  "description": "Full-stack cybersecurity platform: Detection of Government-Issued PII Embedded in Documents and Data",
+  "scripts": {
+    "dev": "cd frontend && npm.cmd run dev",
+    "dev:frontend": "cd frontend && npm.cmd run dev",
+    "dev:backend": "cd backend && node server.js",
+    "start": "cd backend && node server.js",
+    "start:backend": "cd backend && node server.js",
+    "start:frontend": "cd frontend && npm.cmd run dev",
+    "build": "cd frontend && npm.cmd run build"
+  },
+  "keywords": ["cybersecurity", "pii-detection", "gemini-api", "firebase"],
+  "author": "",
+  "license": "ISC"
+}

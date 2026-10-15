@@ -1,0 +1,29 @@
+CONFIDENTIAL - TAX ASSESSMENT SUMMARY RECORD
+Government of India - Income Tax Department
+Assessment Year: 2025-2026
+
+Assessee Name: Rajesh Kumar Sharma (Synthetic Test Profile)
+Date of Birth: 14/08/1986
+Father's Name: Mohan Lal Sharma
+
+PERMANENT ACCOUNT NUMBER (PAN):
+PAN No: ABCPS1234F
+Status: Individual Taxpayer | Jurisdiction: Ward 12(3), New Delhi
+
+UNIQUE IDENTIFICATION (AADHAAR) PROOF:
+Aadhaar UID: 3675 9834 6012
+UIDAI Enrollment Reference: 2049/71029/03841
+Verification Status: e-KYC Verified by Resident Portal
+
+PRIMARY CONTACT INFORMATION:
+Mobile Phone: +91 98765 43210
+Primary Email: rajesh.k.sharma.test@cyber-gov-shield.org
+Alternate Contact: +91 87654 32109
+
+BANK ACCOUNT DETAILS FOR REFUND:
+Bank: State Bank of India
+Account Number: 30948291039
+IFSC Code: SBIN0001234
+Refund Amount: Rs. 14,850/-
+
+Audit Flag: Internal security audit review pending.
